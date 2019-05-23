@@ -4,6 +4,10 @@
 
 This script can parse results from the election result page at results.eci.gov.in and print result as a table.
 
+Requirements:
+
+## "pip install bs4 tabulate requests lxml"
+
  ### Run with "python election.py"
  
 For linux users: run with "watch 'python election.py'" to get an auto refresh result page.
